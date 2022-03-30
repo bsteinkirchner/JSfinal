@@ -1,3 +1,19 @@
-//need to write a function with a random array
-//of 5 answers that will show upon clicking of a button
-//after entering text into a text field
+let answers = [
+    'No way!',
+    'Possibly',
+    'Absolutely',
+    'Try again later',
+    'Duh',
+    'Yes',
+    'No',
+    'What does your gut say',
+    'Signs point to yes'
+  ]
+let displayAnswer = function()
+  {
+    let index = Math.floor(Math.random() * answers.length);
+    let answer = answers[index];
+    let element = document.getElementById( 'circle' );
+    element.style.display = 'inline-block';
+    element.innerHTML = '<br><br>' + answer;
+  }
