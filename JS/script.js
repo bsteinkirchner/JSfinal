@@ -1,13 +1,12 @@
 let answers = [
-    'No way!',
-    'Possibly',
-    'Absolutely',
-    'Try again later',
-    'Duh',
-    'Yes',
-    'No',
-    'What does your gut say',
-    'Signs point to yes'
+  'No way!',
+  'Possibly',
+  'Absolutely',
+  'Try again later',
+  'Duh',
+  'Yes',
+  'No',
+  'Signs point to yes'
   ]
 let displayAnswer = function()
   {
